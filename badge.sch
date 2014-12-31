@@ -4429,7 +4429,7 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="BAT1" gate="G$1" x="20.32" y="15.24"/>
-<instance part="LED1" gate="G$1" x="20.32" y="30.48" rot="R270"/>
+<instance part="LED1" gate="G$1" x="17.78" y="30.48" rot="R90"/>
 <instance part="U$1" gate="G$1" x="35.56" y="43.18"/>
 </instances>
 <busses>
@@ -4440,17 +4440,17 @@ Source: www.kingbright.com</description>
 <pinref part="BAT1" gate="G$1" pin="-"/>
 <wire x1="25.4" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="30.48" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="22.86" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="15.24" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="30.48" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="BAT1" gate="G$1" pin="+"/>
 <wire x1="10.16" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="10.16" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
